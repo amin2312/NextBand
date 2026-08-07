@@ -1,0 +1,48 @@
+<mxfile host="drawio.min2k.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" version="@DRAWIO-VERSION@">
+  <diagram id="gAtrXGgWn61OF_1IgDuo" name="第 1 页">
+    <mxGraphModel dx="1070" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4hA43d-cORVPreKTuEX1-12" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="60" y="260" width="800" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&amp;nbsp;WiFi&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5" vertex="1" connectable="0">
+          <mxGeometry x="-0.019" y="-2" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Data / Audio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5" vertex="1" connectable="0">
+          <mxGeometry x="-0.0707" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="&lt;div style=&quot;margin-top: 0px; background-color: var(--vscode-textCodeBlock-background); border: 1px solid var(--vscode-widget-border); padding: 16px; border-radius: 3px; overflow: auto; white-space: pre-wrap; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: var(--vscode-textCodeBlock-background); white-space: normal;&quot;&gt;ESP32-S3&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: var(--vscode-textCodeBlock-background); white-space: normal;&quot;&gt;• MAX30102 (HR)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: var(--vscode-textCodeBlock-background); white-space: normal;&quot;&gt;• INMP441  (Mic)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: var(--vscode-textCodeBlock-background); white-space: normal;&quot;&gt;• ST7735 (LCD)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=YaHei Consolas Hybrid;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0534" y="-1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Workflow" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7" vertex="1" connectable="0">
+          <mxGeometry x="0.0328" relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="&lt;div style=&quot;margin-top: 0px; background-color: var(--vscode-textCodeBlock-background); border: 1px solid var(--vscode-widget-border); padding: 16px; border-radius: 3px; overflow: auto; white-space: pre-wrap; font-size: 14px; text-align: start;&quot;&gt;Cloud Server&lt;br/&gt;&lt;br/&gt;/set-heart-rate&lt;br/&gt;/set-wants-audio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=YaHei Consolas Hybrid;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;div style=&quot;margin-top: 0px; background-color: var(--vscode-textCodeBlock-background); border: 1px solid var(--vscode-widget-border); padding: 16px; border-radius: 3px; overflow: auto; white-space: pre-wrap; font-size: 14px; text-align: start;&quot;&gt;Docker Engine&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;• &lt;/span&gt;AI Agent&lt;br&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;• &lt;/span&gt;Tools&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=YaHei Consolas Hybrid;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="640" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

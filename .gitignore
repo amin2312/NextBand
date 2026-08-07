@@ -1,0 +1,4 @@
+/server/my-agent/conf.dev.json
+/logs
+__pycache__/
+.claude

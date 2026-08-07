@@ -1,0 +1,1 @@
+This folder is used to store user workspace data for Docker instances.

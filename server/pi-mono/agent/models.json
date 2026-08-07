@@ -1,0 +1,96 @@
+{
+  "providers": {
+    "deepseek": {
+      "apiKey": "$MODEL_API_KEY",
+      "api": "openai-completions",
+      "baseUrl": "https://api.deepseek.com",
+      "models": [
+        {
+          "id": "deepseek-v4-pro",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "compat": {
+            "supportsStore": false,
+            "supportsDeveloperRole": false,
+            "requiresReasoningContentOnAssistantMessages": true,
+            "thinkingFormat": "deepseek"
+          }
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "compat": {
+            "supportsStore": false,
+            "supportsDeveloperRole": false,
+            "requiresReasoningContentOnAssistantMessages": true,
+            "thinkingFormat": "deepseek"
+          }
+        }
+      ]
+    },
+    "openai": {
+      "apiKey": "$MODEL_API_KEY",
+      "api": "openai-responses",
+      "baseUrl": "https://api.openai.com/v1",
+      "models": [
+        {
+          "id": "gpt-5.6-luna",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsStrictMode": true,
+            "supportsOpenAIGrammarTools": true,
+            "supportsToolSearch": true,
+            "supportsExplicitPromptCacheMode": true
+          }
+        },
+        {
+          "id": "gpt-5.6-sol",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsStrictMode": true,
+            "supportsOpenAIGrammarTools": true,
+            "supportsToolSearch": true,
+            "supportsExplicitPromptCacheMode": true
+          }
+        },
+        {
+          "id": "gpt-5.6-terra",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsStrictMode": true,
+            "supportsOpenAIGrammarTools": true,
+            "supportsToolSearch": true,
+            "supportsExplicitPromptCacheMode": true
+          }
+        }
+      ]
+    }
+  }
+}

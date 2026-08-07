@@ -1,0 +1,9 @@
+aiodocker==0.26.0
+language_data==1.4.0
+langcodes==3.5.1
+limits==5.8.0
+paramiko==5.0.0
+pydantic==2.10.6
+tornado==6.5.4
+user-agents==2.2.0
+httpx==0.28.1

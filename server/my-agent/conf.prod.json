@@ -1,0 +1,43 @@
+{
+	"port": 3006,
+	"errLog": "./logs/stderr.log",
+	"outLog": "./logs/stdout.log",
+	"smtp": {
+		"host": "",
+		"port": 465,
+		"senders": {
+			"admin": {
+				"username": "",
+				"password": "",
+				"from_address": "",
+				"from_name": ""
+			}
+		}
+	},
+	"docker": {
+		"restUrl": "tcp://127.0.0.1:2375",
+		"create": {
+			"memory": 268435456,
+			"cpuQuota": 100000
+		}
+	},
+	"vps": {
+		"host": "",
+		"port": 22,
+		"username": "root",
+		"password": ""
+	},
+	"workflow": {
+		"provider": "deepseek",
+		"model": "deepseek-v4-pro",
+		"apiKey": ""
+	},
+	"audio": {
+		"provider": "volcengine",
+		"model": "volc.bigasr.auc_turbo",
+		"apiKey": ""
+	},
+	"workspace_base": "/next-band/workspace",
+	"logs_base": "/var/log",
+	"pi_base": "/next-band/server/pi-mono"
+}
