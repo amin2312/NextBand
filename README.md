@@ -4,8 +4,8 @@
 
 ---
 
-NextBand is an open-source project for a next-generation smart wearable (band or watch).  
-It combines health sensing with cloud-based AI agent that can monitor your heart rate, understand your intent, and take actions on your behalf.
+NextBand is an open‑source project for next‑generation smart wearable devices, exploring new wearable interaction solutions that integrate health sensing, voice interaction and AI agents.  
+Through a band or watch form factor, it can connect sensors such as heart-rate and blood-oxygen monitors to cloud-based AI agents, enabling the device to sense the user's state, understand their intent, and perform actions on their behalf.  
 
 [bilibili demo video](https://www.bilibili.com/video/BV19qgP6fE4u/)
 
@@ -206,6 +206,29 @@ NextBand/
 │   └── pi-mono/           # AI Agent configuration
 ├── workspace/             # Per-user workspace data
 ```
+
+## 🌐 Applicable Scenarios
+
+This solution can be extended to a wide range of more sophisticated use cases, including:
+
+1. Health & Elderly Care
+   - Automatically notify family members when an abnormal heart rate or blood oxygen level is detected.
+   - Automatically contact designated emergency contacts when predefined health conditions are met.
+2. Sports & Fitness
+   - "If my heart rate exceeds 160 BPM, remind me to reduce my workout intensity."
+   - Dynamically adjust training plans based on heart rate, activity level, and exercise status.
+3. Sleep & Everyday Health Management
+   - "If my heart rate remains unusually high during sleep for several nights, remind me to schedule a medical check-up."
+   - Analyze heart rate, blood oxygen, and other biometric data to provide deeper insights into the user's health.
+4. Independent Living & Personal Safety
+   - "If I remain inactive for an extended period and my heart rate becomes abnormal, contact my family."
+   - Integrate fall detection, GPS, and other capabilities to automatically trigger safety alerts and emergency assistance.
+5. Stress & Emotional Well-being
+   - "If my heart rate remains elevated, remind me to take a break."
+   - Combine changes in health metrics to identify potential stress or fatigue.
+6. Personal AI Assistant
+   - Go beyond health monitoring and turn the wearable into an entry point for an AI agent.
+   - In the future, connect smart home devices, enterprise systems, and other services to enable a true sense → reason → act experience.
 
 ---
 
