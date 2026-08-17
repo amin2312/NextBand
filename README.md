@@ -7,7 +7,8 @@
 NextBand is an open‑source project for next‑generation smart wearable devices, exploring new wearable interaction solutions that integrate health sensing, voice interaction and AI agents.  
 Through a band or watch form factor, it can connect sensors such as heart-rate and blood-oxygen monitors to cloud-based AI agents, enabling the device to sense the user's state, understand their intent, and perform actions on their behalf.  
 
-[bilibili demo video](https://www.bilibili.com/video/BV19qgP6fE4u/)
+Intro Articles: [medium](https://medium.com/@huangmipi/open-source-nextband-exploring-the-next-generation-of-wearable-devices-with-health-sensing-voice-75030a5b57f9), [csdn](https://blog.csdn.net/huangmipi/article/details/163773486?spm=1001.2014.3001.5502)  
+Intro Videos: [bilibili](https://www.bilibili.com/video/BV19qgP6fE4u/)
 
 ## ✨ Features
 
@@ -211,24 +212,15 @@ NextBand/
 
 This solution can be extended to a wide range of more sophisticated use cases, including:
 
-1. Health & Elderly Care
-   - Automatically notify family members when an abnormal heart rate or blood oxygen level is detected.
-   - Automatically contact designated emergency contacts when predefined health conditions are met.
-2. Sports & Fitness
-   - "If my heart rate exceeds 160 BPM, remind me to reduce my workout intensity."
-   - Dynamically adjust training plans based on heart rate, activity level, and exercise status.
-3. Sleep & Everyday Health Management
-   - "If my heart rate remains unusually high during sleep for several nights, remind me to schedule a medical check-up."
-   - Analyze heart rate, blood oxygen, and other biometric data to provide deeper insights into the user's health.
-4. Independent Living & Personal Safety
-   - "If I remain inactive for an extended period and my heart rate becomes abnormal, contact my family."
-   - Integrate fall detection, GPS, and other capabilities to automatically trigger safety alerts and emergency assistance.
-5. Stress & Emotional Well-being
-   - "If my heart rate remains elevated, remind me to take a break."
-   - Combine changes in health metrics to identify potential stress or fatigue.
-6. Personal AI Assistant
-   - Go beyond health monitoring and turn the wearable into an entry point for an AI agent.
-   - In the future, connect smart home devices, enterprise systems, and other services to enable a true sense → reason → act experience.
+1. Health, Elderly Care & Home-Alone Safety Monitoring
+    - Automatically notify the elderly person's emergency contacts when preset conditions are met
+    - Can be further integrated with fall detection to automatically trigger a safety response
+2. Fitness & Daily Health Management
+    - "If my heart rate exceeds 160 bpm, remind me to reduce my exercise intensity"
+    - "If my heart rate remains outside my normal range for several consecutive nights, remind me to consider scheduling a check-up"
+3. Personal AI assistant
+    - No longer limited to health data—the wristband becomes an entry point to an AI agent
+    - In the future, it could connect to smart homes, enterprise systems, and more, enabling true "perception + decision-making + execution"
 
 ---
 
